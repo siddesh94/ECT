@@ -1,0 +1,7 @@
+<div class="repeater-container">
+    <ng-container *ngFor="let item of option">
+      <ng-container *ngTemplateOutlet="templateRef; context: { $implicit: item }">
+      </ng-container>
+    </ng-container>
+</div>
+  
